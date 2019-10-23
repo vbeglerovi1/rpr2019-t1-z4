@@ -29,5 +29,8 @@ public class Supermarket {
         brojac++;
 
     }
+     public int getBrojac(){
+        return  brojac;
+     }
 }
 

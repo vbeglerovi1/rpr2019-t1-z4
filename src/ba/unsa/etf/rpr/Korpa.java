@@ -31,6 +31,10 @@ public class Korpa {
         return  null;
     }
 
+    public int getBrojac(){
+        return  brojac;
+    }
+
     public int dajUkupnuCijenuArtikala(){
         int suma=0;
         for(int i=0;i<brojac;i++){
